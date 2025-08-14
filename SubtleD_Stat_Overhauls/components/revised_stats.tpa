@@ -699,25 +699,6 @@ ACTION_IF NOT GAME_IS ~iwdee~ BEGIN
   END
 END  
 
-//NERF RING OF HUMAN INFLUENCE______________________________________________________
-//
-ACTION_IF NOT FILE_EXISTS_IN_GAME ~dvsrv4here.mrk~ BEGIN
-  ACTION_IF FILE_EXISTS_IN_GAME ~ring30.itm~ BEGIN
-	COPY_EXISTING ~ring30.itm~ ~override~
-	  LPF ALTER_EFFECT INT_VAR silent = 1 match_opcode = 6 match_parameter2 = 1 parameter2 = 0 parameter1 = 1 END
-	  READ_LONG 0x54 valid
-	  PATCH_IF (%valid% >= 0) BEGIN // verify name is valid
-		READ_STRREF 0x54 "desc"
-		INNER_PATCH_SAVE new_desc ~%desc%~ BEGIN
-		  REPLACE_TEXTUALLY ~18~  ~+1~
-		END
-		SAY_EVALUATED 0x54 ~%new_desc%~
-	  END
-  END
-END
-//__________________________________________________________________________________
- 
-
 //DIALOGUE-BASED PROFICIENCIES______________________________________________________
 //
 ACTION_IF (int_extra_prof = 1) BEGIN
