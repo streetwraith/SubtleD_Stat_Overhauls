@@ -365,7 +365,7 @@ Dwarves have the following traits:
 - +1 Constitution, –1 Dexterity, –2 Charisma.
 - Infravision.
 - +10% Open Locks, +15% Find Traps, +5% Detect Illusion, +10% Set Traps.
-- +3 bonus to Saving Throws vs. Poison/Death.~
+- +3 bonus to Saving Throws vs. Poison/Death, +2 bonus to Saving Throws vs. Spells.~
 @20013   = ~ELVES: Elves tend to be shorter and slimmer than humans. Their features are finely chiseled and delicate, and they speak in melodic tones. Elves are looked upon as being frivolous and aloof. They concern themselves with natural beauty, dancing, frolicking, and other similar pursuits. Their humor is clever, as are their songs and poetry. There are six racial divisions of elves within the Realms: gold elves, moon elves, wild elves, sea elves, dark elves (drow), and winged elves (avariel).
 
 Elves have the following traits:
@@ -387,7 +387,7 @@ Halflings have the following traits:
 - +1 Dexterity, +1 Charisma –1 Intelligence, -2 Strength.
 - +1 THAC0 bonus with slings.
 - +5% Open Locks, +5% Find Traps, +5% Pick Pockets, +10% Move Silently, +15% Hide in Shadows.
-- +3 bonus to Saving Throws vs. Poison/Death.~
+- +3 bonus to Saving Throws vs. Poison/Death, +2 bonus to Saving Throws vs. Spells.~
 @20016   = ~HALF-ELVES: Half-elves are a mix of human and elven blood. They are handsome folk, with good features from each of their parent races. A half-elf has the curiosity, inventiveness, and ambition of their human ancestors and the refined senses, love of nature, and artistic tastes of their elven ancestors.
 
 Half-elves have the following traits:
