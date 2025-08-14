@@ -41,75 +41,40 @@
     <p>Finally, the major effect of this component: stat bonuses are modified so that every point added above 13 or so results in a tangible benefit; and scores below ~11 have some tangible penalties (down to 5, which is the new minimum).  <b>NOTE:</b> the changes for each stat can be selectively skipped by editing a variable in /Scales_of_Balance/ini/stats.ini.<br />
     <div class="kit_description">
 <table style= "width: 40%">
- <tr>
-  <th>STRENGTH</th>
-  <th> thac0 </th>
-  <th> Damage </th>
- </tr>
- <tr>
-  <td><b>14:</b></td>
-  <td>-</td>
-  <td>+1</td>
- </tr>
- <tr>
-  <td><b>15:</b></td>
-  <td>-</td>
-  <td>+2</td>
- </tr>
- <tr>
-  <td><b>16:</b></td>
-  <td>+1</td>
-  <td>+2</td>
- </tr>
- <tr>
-  <td><b>17:</b></td>
-  <td>+1</td>
-  <td>+3</td>
- </tr>
- <tr>
-  <td><b>18:</b></td>
-  <td>+1</td>
-  <td>+4</td>
- </tr>
- <tr>
-  <td><b>18/51:</b></td>
-  <td>+2</td>
-  <td>+4</td>
- </tr> <tr>
-  <td><b>19:</b></td>
-  <td>+2</td>
-  <td>+5</td>
- </tr>
- <tr>
-  <td><b>20:</b></td>
-  <td>+2</td>
-  <td>+6</td>
- </tr>
- <tr>
-  <td><b>21:</b></td>
-  <td>+3</td>
-  <td>+6</td>
- </tr>
- <tr>
-  <td><b>22:</b></td>
-  <td>+3</td>
-  <td>+7</td>
- </tr>
- <tr>
-  <td><b>23:</b></td>
-  <td>+4</td>
-  <td>+7</td>
- </tr>
- <tr>
-  <td><b>24:</b></td>
-  <td>+4</td>
-  <td>+8</td>
- </tr>
- <tr>
-  <td><b>25:</b></td>
-  <td>+4</td>
-  <td>+9</td>
- </tr>
+<tr>
+<th>STR</th>
+<th> thac0 </th>
+<th> dmg </th>
+<th>locks</th>
+<th>weight</th>
+</tr>
+<tr><td>0</td><td>-20</td><td>-20</td><td>0</td><td>0</td></tr>
+<tr><td>1</td><td>-4</td><td>-7</td><td>3</td><td>10</td></tr>
+<tr><td>2</td><td>-3</td><td>-6</td><td>4</td><td>20</td></tr>
+<tr><td>3</td><td>-3</td><td>-5</td><td>5</td><td>30</td></tr>
+<tr><td>4</td><td>-2</td><td>-4</td><td>6</td><td>40</td></tr>
+<tr><td>5</td><td>-2</td><td>-3</td><td>7</td><td>50</td></tr>
+<tr><td>6</td><td>-1</td><td>-2</td><td>8</td><td>60</td></tr>
+<tr><td>7</td><td>0</td><td>-1</td><td>10</td><td>75</td></tr>
+<tr><td>8</td><td>0</td><td>0</td><td>12</td><td>90</td></tr>
+<tr><td>9</td><td>0</td><td>0</td><td>15</td><td>100</td></tr>
+<tr><td>10</td><td>0</td><td>0</td><td>18</td><td>110</td></tr>
+<tr><td>11</td><td>0</td><td>0</td><td>22</td><td>120</td></tr>
+<tr><td>12</td><td>0</td><td>0</td><td>26</td><td>130</td></tr>
+<tr><td>13</td><td>0</td><td>0</td><td>30</td><td>140</td></tr>
+<tr><td>14</td><td>0</td><td>1</td><td>35</td><td>160</td></tr>
+<tr><td>15</td><td>0</td><td>2</td><td>40</td><td>175</td></tr>
+<tr><td>16</td><td>1</td><td>2</td><td>45</td><td>190</td></tr>
+<tr><td>17</td><td>1</td><td>3</td><td>55</td><td>225</td></tr>
+<tr><td>18</td><td>1</td><td>4</td><td>65</td><td>275</td></tr>
+<tr><td>>18/50</td><td>2</td><td>4</td><td>+3-10</td><td>+5-15</td></tr>
+<tr><td>19</td><td>2</td><td>5</td><td>75</td><td>310</td></tr>
+<tr><td>20</td><td>2</td><td>6</td><td>80</td><td>360</td></tr>
+<tr><td>21</td><td>3</td><td>6</td><td>85</td><td>425</td></tr>
+<tr><td>22</td><td>3</td><td>7</td><td>90</td><td>500</td></tr>
+<tr><td>23</td><td>4</td><td>7</td><td>95</td><td>575</td></tr>
+<tr><td>24</td><td>4</td><td>8</td><td>98</td><td>650</td></tr>
+<tr><td>25</td><td>4</td><td>9</td><td>99</td><td>750</td></tr>
 </table>
 
 <table style= "width: 50%">
