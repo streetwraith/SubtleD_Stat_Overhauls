@@ -81,17 +81,19 @@ BEGIN @100 // basic stat bonus overhaul
 DESIGNATED 100
 LABEL ~D5_REVISED_ABILITY_SCORES~
 
+//Define undefined mage clabs
+//
+ACTION_FOR_EACH kitclab IN ~CLABMA01~ ~CLABMA02~ ~CLABMA03~ ~CLABMA04~ ~CLABMA05~ ~CLABMA06~ ~CLABMA07~ ~CLABMA08~ ~CLABMA09~ BEGIN 
+  ACTION_IF !(FILE_EXISTS_IN_GAME ~%kitclab%.2DA~) THEN BEGIN
+    COPY ~%MOD_FOLDER%/data/stats/BLANKCLAB.2da~ ~override/%kitclab%.2da~ // generate undefined clab files
+  END 
+END  
+
 INCLUDE ~%MOD_FOLDER%/lib/semi_spontaneous.tpa~
 
 INCLUDE ~SubtleD_Stat_Overhauls/components/revised_stats.tpa~
 
 LAF revise_stat_bonuses END
-
-//__________________________________________________________________________________
-
-BEGIN @110 // stat-based bonus memorization slots - affects spont priests too
-DESIGNATED 110
-LABEL ~D5_ABILITY_SCORE_SPELL_SLOTS~
 
 INCLUDE ~%MOD_FOLDER%/lib/semi_stats.tpa~
 INCLUDE ~%MOD_FOLDER%/lib/semi_spontaneous.tpa~
@@ -104,8 +106,6 @@ ACTION_IF (FILE_EXISTS_IN_GAME ~d5fpspt.spl~) BEGIN
   OUTER_SET 5e_wis_bonus_casting = 0
   LAM semi_wis_slots
 END
-
-COPY ~%MOD_FOLDER%/data/stats/mxsplwis_0.2da~ ~override/mxsplwis.2da~
 
 //__________________________________________________________________________________
 

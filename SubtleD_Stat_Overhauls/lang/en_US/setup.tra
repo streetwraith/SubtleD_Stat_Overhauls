@@ -151,22 +151,42 @@ QUIVERING PALM: The next successful attack forces the opponent to save vs. Spell
 @20001   = ~STRENGTH: Strength measures a character's muscle, endurance, and stamina. High Strength scores result in bonuses to damage rolls, to-hit rolls, and a character's maximum encumbrance. It is the prime requisite of Fighters.
 
 Melee bonuses:
+ 1: -4 thac0, -7 damage
+ 2: -3 thac0, -6 damage
+ 3: -3 thac0, -5 damage
+ 4: -2 thac0, -4 damage
+ 5: -2 thac0, -3 damage
+ 6: -1 thac0, -2 damage
+ 7: -1 damage
+... 
 14: +1 damage
 15: +2 damage
 16: +1 thac0, +2 damage
 17: +1 thac0, +3 damage
 18: +1 thac0, +4 damage
-18/xx: +2 thac0, +4 damage (warriors only)
+18/51: +2 thac0, +4 damage (warriors only)
 19: +2 thac0, +5 damage
 20: +2 thac0, +6 damage
 21: +3 thac0, +6 damage
 22: +3 thac0, +7 damage
 23: +4 thac0, +7 damage
 24: +4 thac0, +8 damage
-25: +4 thac0, +9 damage~
+25: +4 thac0, +9 damage
+
+Minimum: <MINIMUM>
+Maximum: <MAXIMUM>~
 @20002   = ~DEXTERITY: Dexterity measures a character's hand-eye coordination, agility, reflexes, and balance. A high Dexterity score improves a character's armor class, and to-hit rolls with ranged weapons. It is the prime requisite of the Thief.
 
 Bonuses:
+ 1: +8 to AC, -8 ranged thac0, -4 melee thac0
+ 2: +6 to AC, -6 ranged thac0, -4 melee thac0
+ 3: +5 to AC, -5 ranged thac0, -4 melee thac0
+ 4: +4 to AC, -4 ranged thac0, -4 melee thac0
+ 5: +3 to AC, -3 ranged thac0, -3 melee thac0
+ 6: +2 to AC, -2 ranged thac0, -2 melee thac0
+ 7: +1 to AC, -1 ranged thac0, -2 melee thac0
+ 8: -1 ranged thac0, -1 melee thac0
+...
 13: -1 to AC
 14: -1 to AC, +1 ranged thac0
 15: -2 to AC, +1 ranged thac0
@@ -180,27 +200,42 @@ Bonuses:
 23: -7 to AC, +4 ranged thac0, +4 melee thac0
 24: -8 to AC, +4 ranged thac0, +4 melee thac0
 25: -8 to AC, +5 ranged thac0, +4 melee thac0
-~
+
+Minimum: <MINIMUM>
+Maximum: <MAXIMUM>~
 @20003   = ~CONSTITUTION: Constitution measures a character's fitness, health, and physical resistance to hardship, injury, and disease. This ability is important to the Ranger.
 
 Bonuses:
+ 1: -3 hit points per level
+ 2: -2 hit points per level
+ 3: -2 hit points per level
+ 4: -1 hit point per level
+ 5: -1 hit point per level
+ 6: -1 hit point per level
+...
 15: +1 hit point per level
 16: +2 hit points per level
 17: +3 hit points per level (warriors only)
 18: +4 hit points per level (warriors only)
-19+: +5 hit points per level (warriors only) and regeneration
-~
+19: +5 hit points per level (warriors only)
+20: +5 hit points per level (warriors only) and regeneration
+21: +6 hit points per level (warriors only) and regeneration
+24: +7 hit points per level (warriors only) and regeneration
+
+Minimum: <MINIMUM>
+Maximum: <MAXIMUM>~
 @20004   = ~INTELLIGENCE: Intelligence measures a character's memory, reasoning, and learning ability. High Intelligence gives an increased chance to make saving throws against enchantments and illusion magic, and more powerful spellcasting. It is the prime requisite of the Mage.
 
 Note: A character with an Intelligence score of 8 or less is illiterate and cannot use scrolls or most wands.
 
 General adjustments:
-5:  -4 save vs. spells
-6:  -3 save vs. spells
-7:  -2 save vs. spells
-8:  -2 save vs. spells
-9:  -1 save vs. spells
-10:  -1 save vs. spells
+ 4: -5 save vs. spells
+ 5: -4 save vs. spells
+ 6: -3 save vs. spells
+ 7: -2 save vs. spells
+ 8: -2 save vs. spells
+ 9: -1 save vs. spells
+10: -1 save vs. spells
 ...
 15: +1 to save vs. spells
 17: +2 to save vs. spells
@@ -209,29 +244,29 @@ General adjustments:
 23: +5 to save vs. spells
 25: +6 to save vs. spells
 
-Bonuses for mages:
-13: +1 1st-level spell slot
-14: +2 1st-level spell slots
-15: +1 2nd-level spell slot
-16: +2 2nd-level spell slots
-17: +1 3rd-level spell slot
-18: +1 4th-level spell slot
-19: +2 3rd-level spell slots
-20: +1 5th-level spell slot
-21: +2 4th-level spell slots
-22: +1 6th-level spell slot
-23: +2 5th-level spell slots
-24: +1 7th-level spell slot
-25: +2 6th-level spell slots
-~
+Bonus spell slots for Mages:
+16: 1/+1
+17: 1/+1, 2/+1
+18: 1/+1, 2/+1, 3/+1
+19: 1/+1, 2/+1, 3/+1, 4/+1
+20: 1/+2, 2/+2, 3/+2, 4/+1
+21: 1/+2, 2/+2, 3/+2, 4/+2, 5/+1
+22: 1/+2, 2/+2, 3/+2, 4/+2, 5/+2, 6/+1
+23: 1/+2, 2/+2, 3/+2, 4/+2, 5/+2, 6/+2, 7/+1
+24: 1/+2, 2/+2, 3/+2, 4/+2, 5/+2, 6/+2, 7/+2, 8/+1
+25: 1/+2, 2/+2, 3/+2, 4/+2, 5/+2, 6/+2, 7/+2, 8/+2, 9/+1
+
+Minimum: <MINIMUM>
+Maximum: <MAXIMUM>~
 @20005   = ~WISDOM: Wisdom measures a character's enlightenment, judgment, and common sense. It is the prime requisite of priests, who gain extra spells from high Wisdom scores.
 
 General adjustments:
-5:  -3 save vs. polymorph
-6:  -3 to save vs. death
-7:  -2 save vs. polymorph
-8:  -2 to save vs. death
-9:  -1 save vs. polymorph
+ 4: -4 save vs. polymorph and death
+ 5: -3 save vs. polymorph
+ 6: -3 to save vs. death
+ 7: -2 save vs. polymorph
+ 8: -2 to save vs. death
+ 9: -1 save vs. polymorph
 10: -1 to save vs. death
 ...
 15: +1 to save vs. polymorph
@@ -246,29 +281,32 @@ General adjustments:
 24: +5 to save vs. death
 25: +6 to save vs. polymorph
 
-Bonuses for clerics and druids:
-13: +1 1st-level spell
-14: +1 2nd-level spell
-15: +1 1st-level spell
-16: +1 3rd-level spell
-17: +1 2nd-level spell
-18: +1 4th-level spell
-19: +1 3rd-level spell
-20: +1 5th-level spell
-21: +1 4th-level spell
-22: +1 6th-level spell
-23: +1 5th-level spell
-24: +1 6th-level spell
-25: +1 7th-level spell
-~
+Bonus spell slots for Clerics, Druids, Paladins and Rangers:
+13: 1/+1
+14: 1/+2
+15: 1/+2, 2/+1
+16: 1/+2, 2/+2
+17: 1/+2, 2/+2, 3/+1
+18: 1/+2, 2/+2, 3/+1, 4/+1
+19: 1/+3, 2/+2, 3/+2, 4/+1
+20: 1/+3, 2/+3, 3/+2, 4/+2
+21: 1/+3, 2/+3, 3/+3, 4/+2, 5/+1
+22: 1/+3, 2/+3, 3/+3, 4/+3, 5/+2
+23: 1/+4, 2/+3, 3/+3, 4/+3, 5/+2, 6/+1
+24: 1/+4, 2/+3, 3/+3, 4/+3, 5/+3, 6/+2
+25: 1/+4, 2/+3, 3/+3, 4/+3, 5/+3, 6/+3, 7/+1
+
+Minimum: <MINIMUM>
+Maximum: <MAXIMUM>~
 @20006   = ~CHARISMA: Charisma measures a character's personal magnetism and strength of spirit. It reflects what some cultures call 'karma,' or 'soul.' High Charisma helps with saving throws and luck. This ability is important to the Druid, Bard, and Paladin.
 
 Adjustments: 
-5:  -2 Luck, -3 to save vs. breath
-6:  -2 to save vs. wands
-7:  -1 Luck
-8:  -2 to save vs. breath
-9:  -1 to save vs. wands
+ 4: -4 to save vs. breath and wands
+ 5: -2 Luck, -3 to save vs. breath and wands
+ 6: -2 to save vs. wands
+ 7: -1 Luck
+ 8: -2 to save vs. breath
+ 9: -1 to save vs. wands
 10: -1 to save vs. breath
 ...
 14: +2% XP progression
@@ -284,31 +322,32 @@ Adjustments:
 24: +19% XP, +5 to save vs. breath
 25: +20% XP, +5 to save vs. wands
 
-Bonuses for bards:
-13: +1 1st-level spell slot
-14: +2 1st-level spell slots
-15: +1 2nd-level spell slot
-16: +2 2nd-level spell slots
-17: +1 3rd-level spell slot
-18: +1 4th-level spell slot
-19: +2 3rd-level spell slots
-20: +1 5th-level spell slot
-21: +2 4th-level spell slots
-22: +1 6th-level spell slot
-23: +2 5th-level spell slots
-25: +2 6th-level spell slots
+Bonus spell slots for Sorcerers:
+16: 1/+2
+17: 1/+2, 2/+2
+18: 1/+2, 2/+2, 3/+2
+19: 1/+2, 2/+2, 3/+2, 4/+2
+20: 1/+3, 2/+3, 3/+3, 4/+3
+21: 1/+4, 2/+4, 3/+3, 4/+3, 5/+2
+22: 1/+4, 2/+4, 3/+4, 4/+3, 5/+3, 6/+2
+23: 1/+4, 2/+4, 3/+4, 4/+4, 5/+3, 6/+3, 7/+2
+24: 1/+4, 2/+4, 3/+4, 4/+4, 5/+4, 6/+3, 7/+3, 8/+2
+25: 1/+4, 2/+4, 3/+4, 4/+4, 5/+4, 6/+4, 7/+3, 8/+3, 9/+2
 
-Bonuses for sorcerers:
-13: +1 1st-level spell slot
-14: +2 1st-level spell slots
-15: +1 2nd-level spell slot
-17: +2 2nd-level spell slots
-18: +1 3rd-level spell slot
-20: +2 3rd-level spell slots
-21: +1 4th-level spell slot
-23: +2 4th-level spell slots
-24: +1 5th-level spell slot
-~
+Bonus spell slots for Bards:
+16: 1/+1
+17: 1/+1, 2/+1
+18: 1/+1, 2/+1, 3/+1
+19: 1/+1, 2/+1, 3/+1, 4/+1
+20: 1/+2, 2/+2, 3/+2, 4/+1
+21: 1/+2, 2/+2, 3/+2, 4/+2, 5/+1
+22: 1/+2, 2/+2, 3/+2, 4/+2, 5/+2, 6/+1
+23: 1/+2, 2/+2, 3/+2, 4/+2, 5/+2, 6/+2, 7/+1
+24: 1/+2, 2/+2, 3/+2, 4/+2, 5/+2, 6/+2, 7/+2, 8/+1
+25: 1/+2, 2/+2, 3/+2, 4/+2, 5/+2, 6/+2, 7/+2, 8/+2, 9/+1
+
+Minimum: <MINIMUM>
+Maximum: <MAXIMUM>~
 @20007   = ~CONSTITUTION: Constitution measures a character's fitness, health, and physical resistance to hardship, injury, and disease. This ability is important to the Ranger.
 
 Bonuses:
