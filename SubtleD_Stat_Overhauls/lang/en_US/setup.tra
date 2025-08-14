@@ -175,11 +175,11 @@ Bonuses:
 18: -4 to AC, +3 ranged thac0, +1 melee thac0
 19: -5 to AC, +3 ranged thac0, +2 melee thac0
 20: -6 to AC, +3 ranged thac0, +2 melee thac0
-21: -6 to AC, +4 ranged thac0, +2 melee thac0
-22: -7 to AC, +4 ranged thac0, +2 melee thac0
-23: -7 to AC, +4 ranged thac0, +3 melee thac0
-24: -8 to AC, +4 ranged thac0, +3 melee thac0
-25: -8 to AC, +5 ranged thac0, +3 melee thac0
+21: -6 to AC, +4 ranged thac0, +3 melee thac0
+22: -7 to AC, +4 ranged thac0, +3 melee thac0
+23: -7 to AC, +4 ranged thac0, +4 melee thac0
+24: -8 to AC, +4 ranged thac0, +4 melee thac0
+25: -8 to AC, +5 ranged thac0, +4 melee thac0
 ~
 @20003   = ~CONSTITUTION: Constitution measures a character's fitness, health, and physical resistance to hardship, injury, and disease. This ability is important to the Ranger.
 

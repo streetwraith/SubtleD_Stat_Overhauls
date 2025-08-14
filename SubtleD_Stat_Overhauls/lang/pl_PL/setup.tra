@@ -176,11 +176,11 @@ Premie:
 18: -4 do KP, +3 do TraK0 dla broni dystansowej, +1 do TraK0 dla broni białej
 19: -5 do KP, +3 do TraK0 dla broni dystansowej, +2 do TraK0 dla broni białej
 20: -6 do KP, +3 do TraK0 dla broni dystansowej, +2 do TraK0 dla broni białej
-21: -6 do KP, +4 do TraK0 dla broni dystansowej, +2 do TraK0 dla broni białej
-22: -7 do KP, +4 do TraK0 dla broni dystansowej, +2 do TraK0 dla broni białej
-23: -7 do KP, +4 do TraK0 dla broni dystansowej, +3 do TraK0 dla broni białej
-24: -8 do KP, +4 do TraK0 dla broni dystansowej, +3 do TraK0 dla broni białej
-25: -8 do KP, +5 do TraK0 dla broni dystansowej, +3 do TraK0 dla broni białej
+21: -6 do KP, +4 do TraK0 dla broni dystansowej, +3 do TraK0 dla broni białej
+22: -7 do KP, +4 do TraK0 dla broni dystansowej, +3 do TraK0 dla broni białej
+23: -7 do KP, +4 do TraK0 dla broni dystansowej, +4 do TraK0 dla broni białej
+24: -8 do KP, +4 do TraK0 dla broni dystansowej, +4 do TraK0 dla broni białej
+25: -8 do KP, +5 do TraK0 dla broni dystansowej, +4 do TraK0 dla broni białej
 ~
 @20003 = ~KONDYCJA: Opisuje ogólną budowę bohatera, jego stan zdrowia i fizyczną wytrzymałość na obrażenia, choroby i innego rodzaju trudy. Ta cecha jest ważna dla łowców.
 

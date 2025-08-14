@@ -136,31 +136,31 @@
   <td><b>21:</b></td>
   <td>-6</td>
   <td>+4</td>
-  <td>+2</td>
+  <td>+3</td>
  </tr>
  <tr>
   <td><b>22:</b></td>
   <td>-7</td>
   <td>+4</td>
-  <td>+2</td>
+  <td>+3</td>
  </tr>
  <tr>
   <td><b>23:</b></td>
   <td>-7</td>
   <td>+4</td>
-  <td>+3</td>
+  <td>+4</td>
  </tr>
  <tr>
   <td><b>24:</b></td>
   <td>-8</td>
   <td>+4</td>
-  <td>+3</td>
+  <td>+4</td>
  </tr>
  <tr>
   <td><b>25:</b></td>
   <td>-8</td>
   <td>+5</td>
-  <td>+3</td>
+  <td>+4</td>
  </tr>
 </table>
 <i>Note: the 18/xx "exceptional" Strength doesn't work in BG like it does in PnP; ALL bonuses are supposed to go up that table in steps (including for non-warriors). BG makes it so that the 1-point jump from 18 to 19 is a bigger difference than the <strong>5-point</strong> jump from 13 to 18. I fix that by, essentially, collapsing the 18/xx values to all be about the same. Bonuses are pushed downward, so there is now almost the same difference between 14 and 15 as there is between 18 and 19.</i><br />
