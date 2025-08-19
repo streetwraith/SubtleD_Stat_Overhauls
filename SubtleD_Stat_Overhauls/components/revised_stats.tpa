@@ -135,7 +135,6 @@ ACTION_IF (change_DEX > 0) BEGIN
   COPY_EXISTING ~d5_stats.spl~ ~override~
   LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 5 parameter2 = 123 target = 1 timing = 1 STR_VAR resource = ~d5dex4~ END
   LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 5 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex5~ END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 5 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex5~ END
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 6 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex6~ END
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 7 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex7~ END
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 8 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex8~ END
