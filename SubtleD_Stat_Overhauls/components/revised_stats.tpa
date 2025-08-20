@@ -837,13 +837,16 @@ ACTION_PHP_EACH NON_JOINABLE_NPC_ARRAY AS cre => dv BEGIN
 		WRITE_BYTE 0x23c 12
 	  END
 	  PATCH_IF (dexterity > 15) AND (dexterity < 19) BEGIN
-		LPF ADD_CRE_EFFECT INT_VAR opcode = 278 target = 1 parameter1 = 1 parameter2 = 0 timing = 0 duration = 126144000 END
+		LPF ADD_CRE_EFFECT INT_VAR opcode = 284 target = 1 parameter1 = 1 parameter2 = 0 timing = 0 duration = 126144000 END
 	  END
-	  PATCH_IF (dexterity > 18) AND (dexterity < 23) BEGIN
-		LPF ADD_CRE_EFFECT INT_VAR opcode = 278 target = 1 parameter1 = 2 parameter2 = 0 timing = 0 duration = 126144000 END
+	  PATCH_IF (dexterity > 18) AND (dexterity < 21) BEGIN
+		LPF ADD_CRE_EFFECT INT_VAR opcode = 284 target = 1 parameter1 = 2 parameter2 = 0 timing = 0 duration = 126144000 END
+	  END
+	  PATCH_IF (dexterity > 20) AND (dexterity < 23) BEGIN
+		LPF ADD_CRE_EFFECT INT_VAR opcode = 284 target = 1 parameter1 = 3 parameter2 = 0 timing = 0 duration = 126144000 END
 	  END
 	  PATCH_IF (dexterity > 22) BEGIN
-		LPF ADD_CRE_EFFECT INT_VAR opcode = 278 target = 1 parameter1 = 3 parameter2 = 0 timing = 0 duration = 126144000 END
+		LPF ADD_CRE_EFFECT INT_VAR opcode = 284 target = 1 parameter1 = 4 parameter2 = 0 timing = 0 duration = 126144000 END
 	  END
 	  PATCH_IF (constitution > 8) AND (constitution < 12) BEGIN
 		WRITE_BYTE 0x23d 12
