@@ -166,15 +166,10 @@ COPY ~%MOD_FOLDER%/lib/d5_base.spl~ ~override/d5absp1.spl~
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 target = 1 timing = 9 STR_VAR resource = ~d5absp1~ END
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 177 target = 1 parameter1 = 19 parameter2 = 5 timing = 9 STR_VAR resource = ~d5absps~ END
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 177 target = 1 parameter1 = 0 parameter2 = 2 timing = 9 STR_VAR resource = ~d5abspw~ END
-	//LPF ADD_SPELL_EFFECT INT_VAR insert_point = 0 opcode = 318 target = 1 parameter1 = 19 parameter2 = 105 timing = 0 duration = 1 STR_VAR resource = ~d5abspw~ END
 //COPY ~%MOD_FOLDER%/data/ability_bonuses/d5_slot1.spl~ ~override/d5absp2.spl~
 COPY ~%MOD_FOLDER%/lib/d5_base.spl~ ~override/d5absp2.spl~
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 target = 1 timing = 9 STR_VAR resource = ~d5absp2~ END
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 177 target = 1 parameter1 = 5 parameter2 = 5 timing = 9 STR_VAR resource = ~d5abspb~ END
-//COPY ~%MOD_FOLDER%/data/ability_bonuses/d5_slot1.spl~ ~override/d5absp3.spl~
-//COPY ~%MOD_FOLDER%/lib/d5_base.spl~ ~override/d5absp3.spl~
-//	LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 target = 1 timing = 9 STR_VAR resource = ~d5absp3~ END
-//	LPF ADD_SPELL_EFFECT INT_VAR opcode = 177 target = 1 parameter1 = 19 parameter2 = 5 timing = 9 STR_VAR resource = ~d5absps~ END
 
 COPY ~%MOD_FOLDER%/data/ability_bonuses/d5_slots.eff~ ~override/d5abspw.eff~
 	WRITE_ASCII 0x30 ~d5abspw~ #8
@@ -216,32 +211,8 @@ COPY ~%MOD_FOLDER%/data/ability_bonuses/d5_slots.spl~ ~override/d5abspb.spl~ 	//
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 24 parameter2 = %chr_slots% target = 1 timing = 1 STR_VAR resource = ~d5chrbx~ END
 //	LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 25 parameter2 = %chr_slots% target = 1 timing = 1 STR_VAR resource = ~d5chrby~ END
 COPY ~%MOD_FOLDER%/data/ability_bonuses/d5_slots.spl~ ~override/d5absps.spl~ 	// 	spell slot modifications for sorcerers
-	LPF ADD_SPELL_EFFECT INT_VAR insert_point = 0 opcode = 318 target = 1 parameter1 = 19 parameter2 = 105 timing = 0 duration = 1 STR_VAR resource = ~d5abspw~ END
-  LPF ADD_SPELL_EFFECT INT_VAR insert_point = 0 opcode = 318 target = 1 parameter1 = 19 parameter2 = 105 timing = 0 duration = 1 STR_VAR resource = ~d5intwm~ END
-  LPF ADD_SPELL_EFFECT INT_VAR insert_point = 0 opcode = 318 target = 1 parameter1 = 19 parameter2 = 105 timing = 0 duration = 1 STR_VAR resource = ~d5intwn~ END
-  LPF ADD_SPELL_EFFECT INT_VAR insert_point = 0 opcode = 318 target = 1 parameter1 = 19 parameter2 = 105 timing = 0 duration = 1 STR_VAR resource = ~d5intwo~ END
-  LPF ADD_SPELL_EFFECT INT_VAR insert_point = 0 opcode = 318 target = 1 parameter1 = 19 parameter2 = 105 timing = 0 duration = 1 STR_VAR resource = ~d5intwp~ END
-  LPF ADD_SPELL_EFFECT INT_VAR insert_point = 0 opcode = 318 target = 1 parameter1 = 19 parameter2 = 105 timing = 0 duration = 1 STR_VAR resource = ~d5intwq~ END
-  LPF ADD_SPELL_EFFECT INT_VAR insert_point = 0 opcode = 318 target = 1 parameter1 = 19 parameter2 = 105 timing = 0 duration = 1 STR_VAR resource = ~d5intwr~ END
-  LPF ADD_SPELL_EFFECT INT_VAR insert_point = 0 opcode = 318 target = 1 parameter1 = 19 parameter2 = 105 timing = 0 duration = 1 STR_VAR resource = ~d5intws~ END
-  LPF ADD_SPELL_EFFECT INT_VAR insert_point = 0 opcode = 318 target = 1 parameter1 = 19 parameter2 = 105 timing = 0 duration = 1 STR_VAR resource = ~d5intwt~ END
-  LPF ADD_SPELL_EFFECT INT_VAR insert_point = 0 opcode = 318 target = 1 parameter1 = 19 parameter2 = 105 timing = 0 duration = 1 STR_VAR resource = ~d5intwu~ END
-  LPF ADD_SPELL_EFFECT INT_VAR insert_point = 0 opcode = 318 target = 1 parameter1 = 19 parameter2 = 105 timing = 0 duration = 1 STR_VAR resource = ~d5intww~ END
-  LPF ADD_SPELL_EFFECT INT_VAR insert_point = 0 opcode = 318 target = 1 parameter1 = 19 parameter2 = 105 timing = 0 duration = 1 STR_VAR resource = ~d5intwx~ END
-  LPF ADD_SPELL_EFFECT INT_VAR insert_point = 0 opcode = 318 target = 1 parameter1 = 19 parameter2 = 105 timing = 0 duration = 1 STR_VAR resource = ~d5intwy~ END
   LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 target = 1 timing = 9 STR_VAR resource = ~d5abspw~ END
-  LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 target = 1 timing = 9 STR_VAR resource = ~d5intwm~ END
-  LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 target = 1 timing = 9 STR_VAR resource = ~d5intwn~ END
-  LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 target = 1 timing = 9 STR_VAR resource = ~d5intwo~ END
-  LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 target = 1 timing = 9 STR_VAR resource = ~d5intwp~ END
-  LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 target = 1 timing = 9 STR_VAR resource = ~d5intwq~ END
-  LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 target = 1 timing = 9 STR_VAR resource = ~d5intwr~ END
-  LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 target = 1 timing = 9 STR_VAR resource = ~d5intws~ END
-  LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 target = 1 timing = 9 STR_VAR resource = ~d5intwt~ END
-  LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 target = 1 timing = 9 STR_VAR resource = ~d5intwu~ END
-  LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 target = 1 timing = 9 STR_VAR resource = ~d5intww~ END
-  LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 target = 1 timing = 9 STR_VAR resource = ~d5intwx~ END
-  LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 target = 1 timing = 9 STR_VAR resource = ~d5intwy~ END
+  LPF ADD_SPELL_EFFECT INT_VAR insert_point = 0 opcode = 318 target = 1 parameter1 = 19 parameter2 = 105 timing = 0 duration = 1 STR_VAR resource = ~d5abspw~ END
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 13 parameter2 = 133 target = 1 timing = 1 STR_VAR resource = ~d5chrsl~ END
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 13 parameter2 = %chr_slots% target = 1 timing = 1 STR_VAR resource = ~d5chrsm~ END
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 14 parameter2 = %chr_slots% target = 1 timing = 1 STR_VAR resource = ~d5chrsn~ END
