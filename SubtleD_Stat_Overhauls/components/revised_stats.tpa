@@ -35,10 +35,10 @@ COPY ~%MOD_FOLDER%/data/stats/strmodex.2da~ ~override~
 //COPY ~%MOD_FOLDER%/data/stats/intmod.2da~ ~override~
 COPY ~%MOD_FOLDER%/data/stats/savecndh.2da~ ~override~
 COPY ~%MOD_FOLDER%/data/stats/savecng.2da~ ~override~
-COPY_EXISTING ~abclasrq.2da~ ~override~
-	REPLACE_TEXTUALLY ~ 0~ ~ 5~
+// COPY_EXISTING ~abclasrq.2da~ ~override~
+//	REPLACE_TEXTUALLY ~ 0~ ~ 5~
 //	REPLACE_TEXTUALLY ~ 17~ ~ 16~
-	BUT_ONLY
+//	BUT_ONLY
 //___________________________________________________________________________________
 
 
