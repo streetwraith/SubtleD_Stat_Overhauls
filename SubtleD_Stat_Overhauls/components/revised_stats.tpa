@@ -118,7 +118,7 @@ END
 
 //STR_______________________________________________________________________________
 //
-ACTION_IF (change_DEX > 0) BEGIN
+ACTION_IF (change_STR > 0) BEGIN
   APPEND ~splprot.2da~ ~D5_STR_IS%TAB%40%TAB%-1%TAB%1~
 
   COPY_EXISTING ~splprot.2da~ ~override~
