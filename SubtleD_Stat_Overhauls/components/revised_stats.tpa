@@ -249,70 +249,123 @@ ACTION_IF (change_DEX > 0) BEGIN
   BUT_ONLY
 
   COPY_EXISTING ~d5_stats.spl~ ~override~
-  LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 5 parameter2 = 123 target = 1 timing = 1 STR_VAR resource = ~d5dex4~ END
-  LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 5 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex5~ END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 6 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex6~ END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 7 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex7~ END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 8 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex8~ END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 9 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex9~ END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 16 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex16~ END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 17 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex17~ END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 18 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex18~ END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 19 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex19~ END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 20 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex20~ END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 21 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex21~ END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 22 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex22~ END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 23 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex23~ END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 24 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex24~ END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 25 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex25~ END
 
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 1 parameter2 = 123 target = 1 timing = 1 STR_VAR resource = ~d5dex0~ END
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 1 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex1~ END
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 2 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex2~ END
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 3 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex3~ END
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 4 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex4~ END
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 5 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex5~ END
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 6 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex6~ END
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 7 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex7~ END
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 8 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex8~ END
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 9 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex9~ END
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 10 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex10~ END
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 11 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex11~ END
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 12 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex12~ END
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 13 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex13~ END
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 14 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex14~ END
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 15 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex15~ END
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 16 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex16~ END
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 17 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex17~ END
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 18 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex18~ END
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 19 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex19~ END
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 20 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex20~ END
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 21 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex21~ END
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 22 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex22~ END
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 23 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex23~ END
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 24 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex24~ END
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 326 parameter1 = 25 parameter2 = %dex_row% target = 1 timing = 1 STR_VAR resource = ~d5dex25~ END
+
+  COPY ~%MOD_FOLDER%/data/stats/d5_statx.spl~ ~override/d5dex0.spl~
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = ~d5dex0~ END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 284 parameter1 = (0 - 20) parameter2 = 0 target = 1 timing = 0 duration = 7 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 36 parameter1 = (0 - 2) parameter2 = 0 target = 1 timing = 0 duration = 7 END
+  COPY ~%MOD_FOLDER%/data/stats/d5_statx.spl~ ~override/d5dex1.spl~
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = ~d5dex1~ END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 284 parameter1 = (0 - 4) parameter2 = 0 target = 1 timing = 0 duration = 7 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 36 parameter1 = (0 - 2) parameter2 = 0 target = 1 timing = 0 duration = 7 END
+  COPY ~%MOD_FOLDER%/data/stats/d5_statx.spl~ ~override/d5dex2.spl~
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = ~d5dex2~ END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 284 parameter1 = (0 - 3) parameter2 = 0 target = 1 timing = 0 duration = 7 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 36 parameter1 = (0 - 2) parameter2 = 0 target = 1 timing = 0 duration = 7 END
+  COPY ~%MOD_FOLDER%/data/stats/d5_statx.spl~ ~override/d5dex3.spl~
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = ~d5dex3~ END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 284 parameter1 = (0 - 3) parameter2 = 0 target = 1 timing = 0 duration = 7 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 36 parameter1 = (0 - 2) parameter2 = 0 target = 1 timing = 0 duration = 7 END
   COPY ~%MOD_FOLDER%/data/stats/d5_statx.spl~ ~override/d5dex4.spl~
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = ~d5dex4~ END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 284 parameter1 = (0 - 4) parameter2 = 0 target = 1 timing = 0 duration = 7 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 284 parameter1 = (0 - 2) parameter2 = 0 target = 1 timing = 0 duration = 7 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 36 parameter1 = (0 - 1) parameter2 = 0 target = 1 timing = 0 duration = 7 END
   COPY ~%MOD_FOLDER%/data/stats/d5_statx.spl~ ~override/d5dex5.spl~
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = ~d5dex5~ END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 284 parameter1 = (0 - 3) parameter2 = 0 target = 1 timing = 0 duration = 7 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 284 parameter1 = (0 - 2) parameter2 = 0 target = 1 timing = 0 duration = 7 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 36 parameter1 = (0 - 1) parameter2 = 0 target = 1 timing = 0 duration = 7 END
   COPY ~%MOD_FOLDER%/data/stats/d5_statx.spl~ ~override/d5dex6.spl~
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = ~d5dex6~ END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 284 parameter1 = (0 - 2) parameter2 = 0 target = 1 timing = 0 duration = 7 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 284 parameter1 = (0 - 1) parameter2 = 0 target = 1 timing = 0 duration = 7 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 36 parameter1 = (0 - 1) parameter2 = 0 target = 1 timing = 0 duration = 7 END
   COPY ~%MOD_FOLDER%/data/stats/d5_statx.spl~ ~override/d5dex7.spl~
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = ~d5dex7~ END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 284 parameter1 = (0 - 2) parameter2 = 0 target = 1 timing = 0 duration = 7 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 284 parameter1 = (0 - 1) parameter2 = 0 target = 1 timing = 0 duration = 7 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 36 parameter1 = (0 - 1) parameter2 = 0 target = 1 timing = 0 duration = 7 END
   COPY ~%MOD_FOLDER%/data/stats/d5_statx.spl~ ~override/d5dex8.spl~
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = ~d5dex8~ END
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 284 parameter1 = (0 - 1) parameter2 = 0 target = 1 timing = 0 duration = 7 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 36 parameter1 = (0 - 1) parameter2 = 0 target = 1 timing = 0 duration = 7 END
   COPY ~%MOD_FOLDER%/data/stats/d5_statx.spl~ ~override/d5dex9.spl~
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = ~d5dex9~ END
+  COPY ~%MOD_FOLDER%/data/stats/d5_statx.spl~ ~override/d5dex10.spl~
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = ~d5dex10~ END
+  COPY ~%MOD_FOLDER%/data/stats/d5_statx.spl~ ~override/d5dex11.spl~
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = ~d5dex11~ END
+  COPY ~%MOD_FOLDER%/data/stats/d5_statx.spl~ ~override/d5dex12.spl~
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = ~d5dex12~ END
+  COPY ~%MOD_FOLDER%/data/stats/d5_statx.spl~ ~override/d5dex13.spl~
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = ~d5dex13~ END
+  COPY ~%MOD_FOLDER%/data/stats/d5_statx.spl~ ~override/d5dex14.spl~
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = ~d5dex14~ END
+  COPY ~%MOD_FOLDER%/data/stats/d5_statx.spl~ ~override/d5dex15.spl~
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = ~d5dex15~ END
   COPY ~%MOD_FOLDER%/data/stats/d5_statx.spl~ ~override/d5dex16.spl~
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = ~d5dex16~ END
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 284 parameter1 = 1 parameter2 = 0 target = 1 timing = 0 duration = 7 END
   COPY ~%MOD_FOLDER%/data/stats/d5_statx.spl~ ~override/d5dex17.spl~
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = ~d5dex17~ END
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 284 parameter1 = 1 parameter2 = 0 target = 1 timing = 0 duration = 7 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 36 parameter1 = 1 parameter2 = 0 target = 1 timing = 0 duration = 7 END
   COPY ~%MOD_FOLDER%/data/stats/d5_statx.spl~ ~override/d5dex18.spl~
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = ~d5dex18~ END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 284 parameter1 = 1 parameter2 = 0 target = 1 timing = 0 duration = 7 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 284 parameter1 = 2 parameter2 = 0 target = 1 timing = 0 duration = 7 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 36 parameter1 = 1 parameter2 = 0 target = 1 timing = 0 duration = 7 END
   COPY ~%MOD_FOLDER%/data/stats/d5_statx.spl~ ~override/d5dex19.spl~
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = ~d5dex19~ END
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 284 parameter1 = 2 parameter2 = 0 target = 1 timing = 0 duration = 7 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 36 parameter1 = 1 parameter2 = 0 target = 1 timing = 0 duration = 7 END
   COPY ~%MOD_FOLDER%/data/stats/d5_statx.spl~ ~override/d5dex20.spl~
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = ~d5dex20~ END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 284 parameter1 = 2 parameter2 = 0 target = 1 timing = 0 duration = 7 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 284 parameter1 = 3 parameter2 = 0 target = 1 timing = 0 duration = 7 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 36 parameter1 = 1 parameter2 = 0 target = 1 timing = 0 duration = 7 END
   COPY ~%MOD_FOLDER%/data/stats/d5_statx.spl~ ~override/d5dex21.spl~
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = ~d5dex21~ END
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 284 parameter1 = 3 parameter2 = 0 target = 1 timing = 0 duration = 7 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 36 parameter1 = 2 parameter2 = 0 target = 1 timing = 0 duration = 7 END
   COPY ~%MOD_FOLDER%/data/stats/d5_statx.spl~ ~override/d5dex22.spl~
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = ~d5dex22~ END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 284 parameter1 = 3 parameter2 = 0 target = 1 timing = 0 duration = 7 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 284 parameter1 = 4 parameter2 = 0 target = 1 timing = 0 duration = 7 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 36 parameter1 = 2 parameter2 = 0 target = 1 timing = 0 duration = 7 END
   COPY ~%MOD_FOLDER%/data/stats/d5_statx.spl~ ~override/d5dex23.spl~
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = ~d5dex23~ END
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 284 parameter1 = 4 parameter2 = 0 target = 1 timing = 0 duration = 7 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 36 parameter1 = 2 parameter2 = 0 target = 1 timing = 0 duration = 7 END
   COPY ~%MOD_FOLDER%/data/stats/d5_statx.spl~ ~override/d5dex24.spl~
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = ~d5dex24~ END
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 284 parameter1 = 4 parameter2 = 0 target = 1 timing = 0 duration = 7 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 36 parameter1 = 2 parameter2 = 0 target = 1 timing = 0 duration = 7 END
   COPY ~%MOD_FOLDER%/data/stats/d5_statx.spl~ ~override/d5dex25.spl~
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = ~d5dex25~ END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 284 parameter1 = 4 parameter2 = 0 target = 1 timing = 0 duration = 7 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 284 parameter1 = 5 parameter2 = 0 target = 1 timing = 0 duration = 7 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 36 parameter1 = 2 parameter2 = 0 target = 1 timing = 0 duration = 7 END
  END
 
 //INT_______________________________________________________________________________
