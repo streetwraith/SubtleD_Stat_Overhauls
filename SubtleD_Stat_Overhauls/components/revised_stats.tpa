@@ -121,7 +121,7 @@ END
 //STR_______________________________________________________________________________
 //
 ACTION_IF (change_STR > 0) BEGIN
-  APPEND ~splprot.2da~ ~D5_STR_IS%TAB%40%TAB%-1%TAB%1~
+  APPEND ~splprot.2da~ ~D5_STR_IS%TAB%36%TAB%-1%TAB%1~
 
   COPY_EXISTING ~splprot.2da~ ~override~
 	COUNT_2DA_COLS cols 
@@ -373,7 +373,7 @@ ACTION_IF (change_DEX > 0) BEGIN
 //CON
 //
 ACTION_IF (change_CON > 0) BEGIN
-  APPEND ~splprot.2da~ ~D5_CON_IS%TAB%40%TAB%-1%TAB%1~
+  APPEND ~splprot.2da~ ~D5_CON_IS%TAB%41%TAB%-1%TAB%1~
 
   COPY_EXISTING ~splprot.2da~ ~override~
 	COUNT_2DA_COLS cols 

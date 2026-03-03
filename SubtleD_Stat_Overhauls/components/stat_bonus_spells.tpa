@@ -112,62 +112,55 @@ COPY ~%MOD_FOLDER%/data/ability_bonuses/d5_slots.spl~ ~override/d5absps.spl~ 	//
 	PATCH_FOR_EACH seq IN n o p q r s t u v w x y BEGIN
 	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = EVAL ~d5intw%seq%~ END
     END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 parameter1 = 3 parameter2 = 1 target = 1 timing = 9 duration = 0 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 parameter1 = 2 parameter2 = 1 target = 1 timing = 9 duration = 0 END
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 parameter1 = 1 parameter2 = 2 target = 1 timing = 9 duration = 0 END
   COPY ~%MOD_FOLDER%/data/ability_bonuses/d5_slotx.spl~ ~override/d5intwr.spl~ // 18
 	PATCH_FOR_EACH seq IN n o p q r s t u v w x y BEGIN
 	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = EVAL ~d5intw%seq%~ END
     END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 parameter1 = 3 parameter2 = 1 target = 1 timing = 9 duration = 0 END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 parameter1 = 2 parameter2 = 2 target = 1 timing = 9 duration = 0 END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 parameter1 = 1 parameter2 = 4 target = 1 timing = 9 duration = 0 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 parameter1 = 2 parameter2 = 1 target = 1 timing = 9 duration = 0 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 parameter1 = 1 parameter2 = 6 target = 1 timing = 9 duration = 0 END
   COPY ~%MOD_FOLDER%/data/ability_bonuses/d5_slotx.spl~ ~override/d5intws.spl~ // 19
 	PATCH_FOR_EACH seq IN n o p q r s t u v w x y BEGIN
 	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = EVAL ~d5intw%seq%~ END
     END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 parameter1 = 3 parameter2 = 3 target = 1 timing = 9 duration = 0 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 parameter1 = 2 parameter2 = 3 target = 1 timing = 9 duration = 0 END
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 parameter1 = 1 parameter2 = 12 target = 1 timing = 9 duration = 0 END
   COPY ~%MOD_FOLDER%/data/ability_bonuses/d5_slotx.spl~ ~override/d5intwt.spl~ // 20
 	PATCH_FOR_EACH seq IN n o p q r s t u v w x y BEGIN
 	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = EVAL ~d5intw%seq%~ END
     END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 parameter1 = 3 parameter2 = 3 target = 1 timing = 9 duration = 0 END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 parameter1 = 2 parameter2 = 4 target = 1 timing = 9 duration = 0 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 parameter1 = 2 parameter2 = 7 target = 1 timing = 9 duration = 0 END
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 parameter1 = 1 parameter2 = 24 target = 1 timing = 9 duration = 0 END
   COPY ~%MOD_FOLDER%/data/ability_bonuses/d5_slotx.spl~ ~override/d5intwu.spl~ // 21
 	PATCH_FOR_EACH seq IN n o p q r s t u v w x y BEGIN
 	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = EVAL ~d5intw%seq%~ END
     END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 parameter1 = 3 parameter2 = 7 target = 1 timing = 9 duration = 0 END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 parameter1 = 2 parameter2 = 8 target = 1 timing = 9 duration = 0 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 parameter1 = 2 parameter2 = 15 target = 1 timing = 9 duration = 0 END
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 parameter1 = 1 parameter2 = 48 target = 1 timing = 9 duration = 0 END
   COPY ~%MOD_FOLDER%/data/ability_bonuses/d5_slotx.spl~ ~override/d5intwv.spl~ // 22
 	PATCH_FOR_EACH seq IN n o p q r s t u v w x y BEGIN
 	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = EVAL ~d5intw%seq%~ END
     END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 parameter1 = 3 parameter2 = 15 target = 1 timing = 9 duration = 0 END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 parameter1 = 2 parameter2 = 16 target = 1 timing = 9 duration = 0 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 parameter1 = 2 parameter2 = 31 target = 1 timing = 9 duration = 0 END
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 parameter1 = 1 parameter2 = 96 target = 1 timing = 9 duration = 0 END
   COPY ~%MOD_FOLDER%/data/ability_bonuses/d5_slotx.spl~ ~override/d5intww.spl~ // 23
 	PATCH_FOR_EACH seq IN n o p q r s t u v w x y BEGIN
 	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = EVAL ~d5intw%seq%~ END
     END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 parameter1 = 3 parameter2 = 31 target = 1 timing = 9 duration = 0 END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 parameter1 = 2 parameter2 = 32 target = 1 timing = 9 duration = 0 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 parameter1 = 2 parameter2 = 63 target = 1 timing = 9 duration = 0 END
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 parameter1 = 1 parameter2 = 192 target = 1 timing = 9 duration = 0 END
   COPY ~%MOD_FOLDER%/data/ability_bonuses/d5_slotx.spl~ ~override/d5intwx.spl~ // 24
 	PATCH_FOR_EACH seq IN n o p q r s t u v w x y BEGIN
 	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = EVAL ~d5intw%seq%~ END
     END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 parameter1 = 3 parameter2 = 63 target = 1 timing = 9 duration = 0 END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 parameter1 = 2 parameter2 = 64 target = 1 timing = 9 duration = 0 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 parameter1 = 2 parameter2 = 127 target = 1 timing = 9 duration = 0 END
 	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 parameter1 = 1 parameter2 = 384 target = 1 timing = 9 duration = 0 END
   COPY ~%MOD_FOLDER%/data/ability_bonuses/d5_slotx.spl~ ~override/d5intwy.spl~ // 25
 	PATCH_FOR_EACH seq IN n o p q r s t u v w x y BEGIN
 	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 321 parameter2 = 0 target = 1 timing = 1 STR_VAR resource = EVAL ~d5intw%seq%~ END
     END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 parameter1 = 3 parameter2 = 127 target = 1 timing = 9 duration = 0 END
-	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 parameter1 = 2 parameter2 = 384 target = 1 timing = 9 duration = 0 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 parameter1 = 2 parameter2 = 511 target = 1 timing = 9 duration = 0 END
 
   COPY ~%MOD_FOLDER%/data/mxspl/mxsplbrd.2da~ ~override/mxsplbrd.2da~
 
